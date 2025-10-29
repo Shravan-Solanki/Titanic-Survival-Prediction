@@ -55,9 +55,9 @@ The data was provided by the [Kaggle "Titanic - Machine Learning from Disaster" 
     ```
     or
 
-    Run the Python notebook:
+    Run the Jupyter Notebook:
     ```bash
-    python titanic.ipynb
+    jupyter notebook titanic.ipynb
     ```
     This will print the validation accuracy to the console and generate the `titanic_predictions.csv` submission file.
 
