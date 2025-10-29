@@ -1,0 +1,58 @@
+# -------------------------------------------------------------------
+# --- Python & Virtual Environments ---
+# -------------------------------------------------------------------
+# Virtual environment folders
+venv/
+.venv/
+env/
+.env/
+
+# Environment variable files (NEVER upload these for security)
+.env
+.env.*
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------------------------------------------------
+# --- Jupyter / IPython Notebook ---
+# -------------------------------------------------------------------
+# Checkpoint files created by notebooks
+.ipynb_checkpoints/
+
+# -------------------------------------------------------------------
+# --- Data Files & Model Files (CRITICAL for ML) ---
+# -------------------------------------------------------------------
+# Datasets (These should be downloaded separately, as noted in the README)
+*.csv
+*.data
+*.json
+*.sqlite
+*.db
+
+# Saved models (These are binary files and can be large)
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# -------------------------------------------------------------------
+# --- IDE & Editor Config ---
+# -------------------------------------------------------------------
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# -------------------------------------------------------------------
+# --- Operating System Files ---
+# -------------------------------------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
